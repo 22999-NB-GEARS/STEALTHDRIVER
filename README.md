@@ -23,3 +23,42 @@ Stealthdriver is the second iteration of motor-mounting block for BABz V2, which
 With the Stealthdriver, the belt tensioner design changed from linear up-down spring-loaded tensioner to swing arm spring-loaded tensioner which assist in saving space for future testing of other up coming module such as [[Underbelly brace revision 2 (rev A1_1)]] and Electronic core.
 
 The design aesthetic of the Stealthdriver rev1 is heavily inspired by VORON design team, Galileo 2 Extruder (G2E) to be exact. Although the Stealthdriver does not utilize orbital gear drive such as G2E, the Stealthdriver uses the G2E's tensioning arm design.
+![image](https://github.com/user-attachments/assets/8e59a7b6-6b1d-4091-9598-cad23a2d3436)
+
+## Criteria:
+- Decrease amount of space taken by the motor-mounting block
+- Simplifies tensioning procedure
+- Reduce weight (around -20g)
+- Increase modularity
+
+## Constraint:
+- Complex geometry (INTENTIONAL)
+- Complex mechanism
+- Probably more expensive (Unnecessarily expensive just like G2E)
+
+## BOM
+### 3D parts:
+
+| Part name                     | material | Infill(%) | Wall | Top | Btm |
+| ----------------------------- | -------- | --------- | ---- | --- | --- |
+| Stealth_MotorBlock            | ABS      | 20-40     | 3    | 3   | 3   |
+| Stealth_MotorBlock_frontplate | ABS      | 20-40     | 4    | 4   | 4   |
+| Steath_ShearBearingHolder     | ABS      | 20-40     | 3    | 3   | 3   |
+| Stealth_TensionArm            | PPA-CF   | 30-35     | 4    | 3   | 3   |
+| Stealth_TensionArmCover       | PPA-CF   | 30-35     | 4    | 3   | 3   |
+### Hardware
+
+| Name                    | qyt | Description                                                                                               |
+| ----------------------- | --- | --------------------------------------------------------------------------------------------------------- |
+| F623ZZ                  | 4   | F623ZZ is a common flanged bearing used on a Voron V0 machines that act as an idler for the Stealthdriver |
+| 5x16 dowel pin          | 2   | Dowel pins for the idler arms' pivot points.                                                              |
+| MR115                   | 4   | Bearing for the idler arms' pivot points                                                                  |
+| 3x4x5 heat insert       | 16  |                                                                                                           |
+| 3x12 Flat head screws   | 8   |                                                                                                           |
+| 3x12 socket head screws | 2   |                                                                                                           |
+| 4x12 flat head screws   | 8   |                                                                                                           |
+| 3x20 Thumbscrews        | 2   |                                                                                                           |
+| Extruder spring         | 2   |                                                                                                           |
+
+
+## Tensioning system
