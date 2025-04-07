@@ -1,6 +1,9 @@
 # STEALTHDRIVER
 KMUTNB GEARS' newly developed transmission system for FTC robots utilizing voron community's galileo 2 extruder system as inspiration.
 
+![image](https://github.com/user-attachments/assets/116e0840-8da3-4fee-a8bf-c89ba448d6c9)
+
+
 # Preface
 Due to the previous motor-mounting block design being outdated, the new **Stealthdriver** (Motor block v2) try to solve the problem of space efficiency and optimization issue from the motorblock v1 that was being used in BABz V2 during its operation in the FTC 2024 Into the deep season.
 
