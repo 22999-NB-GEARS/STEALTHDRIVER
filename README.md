@@ -62,3 +62,32 @@ The design aesthetic of the Stealthdriver rev1 is heavily inspired by VORON desi
 
 
 ## Tensioning system
+![image](https://github.com/user-attachments/assets/b8acee46-3398-43c1-8c54-a860f19ee5c2)
+With the Stealthdriver utilizing the axial tension style configuration like most 3D printer extruder instead of linear motion tensioning, the design has been improved and reduced its footprint within the chassis. The tensioning arms curls around the pulley, minimizing its extrusion.
+
+![image](https://github.com/user-attachments/assets/9b895a1f-f978-47ce-af0f-3e46557cd949)
+
+### Tensioning
+![image](https://github.com/user-attachments/assets/57c1e129-44df-496e-8599-ab81e797d63e)
+By using a thumbscrew pressing a spring against the tensioning arm, we can achieve variable tensioning force much like a 3D printer's extruder tensioner.
+
+# Simulation
+We have identify the weakest point in the assembly, which is the tensioning arm where constant spring load is applying toward the part that will potentially be printed out as an ABS or -worst case- PPA-CF
+
+**Force**: 10N
+**Direction**: Orbit of mounting point
+
+## Stress point
+![image](https://github.com/user-attachments/assets/08f55bde-9763-4885-9aba-9f1b19213d85)
+![image](https://github.com/user-attachments/assets/9dfbf4c8-fa6a-4fd0-b703-faf8ac57da2c)
+
+## Displacement
+![image](https://github.com/user-attachments/assets/24cf4168-f37e-4bdf-a4e1-cc118e391637)
+
+## Strain
+![image](https://github.com/user-attachments/assets/245cca41-d6e3-42a0-ac85-b70c15daf25a)
+
+
+
+
+
